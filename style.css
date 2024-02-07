@@ -144,3 +144,24 @@ body{
         transform: rotate(0deg);
     }
 }
+
+.copyright{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    p{
+        margin: 5px;
+        font-size: 14px;
+        font-weight: 800;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    }
+    a{
+        text-decoration: none;
+        font-size: 10px;
+        font-weight: 600;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}
